@@ -10,7 +10,7 @@ const Service = () => {
     },[])
     // console.log(course);
     return (
-        <div className="row  ">
+        <div className="row mb-3 ">
             {
                 course.map(pd=><div className="col-md-4 g-4 rounded ">
                 <div className="col d-flex justify-content-center">

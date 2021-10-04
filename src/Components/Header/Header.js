@@ -9,7 +9,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
         <div className="container-fluid">
           <NavLink
-           className="navbar-brand text-light fs-3 fw-bold" to="/">JM English</NavLink>
+           className="navbar-brand text-light fs-3 fw-bold" to="/"><i className="fas fa-university"></i>  JM English</NavLink>
           <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -32,7 +32,10 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                 className="nav-link text-light fw-bold fs-4" to="/booking">Booking Course</NavLink>
+                 className="nav-link text-light fw-bold fs-4" to="/booking" Style={{
+                  fontWeight: "bold",
+                  color: "red"
+                }}>Booking Course</NavLink>
               </li>
               
              
