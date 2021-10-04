@@ -15,7 +15,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto ">
-              <li classN
+              <li className
               ="nav-item">
                 <NavLink
                  className="nav-link active text-light fw-bold fs-4 " aria-current="page" to="home">Home</NavLink>
@@ -32,10 +32,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                 className="nav-link text-light fw-bold fs-4" to="/booking" Style={{
-                  fontWeight: "bold",
-                  color: "red"
-                }}>Booking Course</NavLink>
+                 className="nav-link text-light fw-bold fs-4" to="/booking">Booking Course</NavLink>
               </li>
               
              

@@ -4,7 +4,7 @@ This project was bootstrapped with [JM ENGLISH](https://github.com/facebook/crea
 
 # header
 
-header for JM English
+i use a bootstrap navbar for header in JM English
 # footer
 i used footere
 
