@@ -24,6 +24,9 @@ const Header = () => {
               <li className="nav-item">
                 <Link className="nav-link text-light fw-bold fs-4" to="/service">Service</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link text-light fw-bold fs-4" to="/booking">Booking Course</Link>
+              </li>
               
             </ul>
           </div>

@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer';
 import Service from './pages/Service/Service';
 import NotFound from './pages/not found/NotFound';
+import BookingCourse from './pages/Booking Course/BookingCourse';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/service">
           <Service></Service>
+        </Route>
+        <Route path="/booking">
+          <BookingCourse></BookingCourse>
         </Route>
         <Route path="*">
           <NotFound></NotFound>
