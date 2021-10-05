@@ -12,13 +12,15 @@ const Service = () => {
     return (
         <div className="row mb ">
             {
-                course.map(pd=><div className="col-md-4 g-4 rounded ">
+                course.map(pd=><div className="col-md-4 g-4 rounded "key={pd.id}>
                 <div className="col d-flex justify-content-center">
                   <div className="card me-3 shadow" style={{width:"350px"}}>
                     <img style={{height:"300px"}} src={pd.img} className="card-img-top" alt="..."/>
                     <div className="card-body">
                       <h5 className="card-title text-primary fs-2">{pd.Course}</h5>
-                      <p className="card-text text-dark fw-bolder">{pd.titel.slice(0, 100)}</p>
+                      <p className="card-text text-dark fw-bolder">{pd.titel.slice(0, 100)
+                     }
+                      </p>
                     </div>
                   </div>
                 </div>

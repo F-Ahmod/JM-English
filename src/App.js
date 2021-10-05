@@ -12,43 +12,28 @@ function App() {
   return (
     <div className="bg-success p-2 text-dark bg-opacity-25">
       <BrowserRouter>
-     
+      <Header></Header>
       <Switch>
-      
-
-
         <Route exact path="/">
-        <Header></Header>
         <Home></Home>
-        <Footer></Footer>
-
         </Route>
-
         <Route path="/home">
-        <Header></Header>
           <Home></Home>
-          <Footer></Footer>
         </Route>
         <Route path="/about">
-        <Header></Header>
           <About></About>
-          <Footer></Footer>
         </Route>
-
         <Route path="/service">
-        <Header></Header>
           <Service></Service>
-          <Footer></Footer>
         </Route>
         <Route path="/booking">
-        <Header></Header>
           <BookingCourse></BookingCourse>
-          <Footer></Footer>
         </Route>
         <Route path="*">
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
       </BrowserRouter>
    
     </div>

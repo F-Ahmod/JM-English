@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import img from '../../jm underheader.jpg'
+
 import './Header.css'
 const Header = () => {
     return (
@@ -18,7 +18,7 @@ const Header = () => {
               <li className
               ="nav-item">
                 <NavLink
-                 className="nav-link active text-light fw-bold fs-4 " aria-current="page" to="home">Home</NavLink>
+                 className="nav-link active text-light fw-bold fs-4 " aria-current="page" activeStyle={{color:"#146ECF"}} to="/home">Home</NavLink>
               </li>
 
               <li className="nav-item">
@@ -42,16 +42,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <div className="row  ">
-          <div className="col-md-5 ps-3 mt-3 pt-3 bg-success p-2 text-dark bg-opacity-10">
-             <h1 className="fs-1">About JM English International</h1>
-             <small className="text-dark fw-bold">With a portfolio of award-winning academic programmes that deliver a range of programmes from English language courses to the UK’s top A-Level College, Oxford International is a premier education group.</small>
-          </div>
-          <div className="col-md-7 mr-3 mt-3 bg-success p-2 text-dark bg-opacity-10 d-flex justify-content-center">
-             <img src={img} alt="" />
-
-          </div>
-      </div>
+      
        </div>
        
     );
