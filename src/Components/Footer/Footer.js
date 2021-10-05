@@ -20,22 +20,22 @@ const Footer = () => {
                 </div>
                
                 <div className="col-md-4 ">
-                    <h3>Contact us</h3>
-                    <small > Don’t hesitate to get in touch by phone or email</small>
-                    <p>Email : ahmod.fateh@gmail.com</p>
-                    <p>Phone : +01717918508</p>
-                    <p>help line : +8807656757</p>
+                    <h3 className="ms-2">Contact us</h3>
+                    <small className="ms-2"> Don’t hesitate to get in touch by phone or email</small>
+                    <p className="ms-2">Email : ahmod.fateh@gmail.com</p>
+                    <p className="ms-2">Phone : +01717918508</p>
+                    <p className="ms-2">help line : +8807656757</p>
                     
                     
                     
                 </div>
                 <div className="col-md-4 ">
-                    <h3><i className="fas fa-user-secret"></i> Privacy policy</h3>
-                    <NavLink to="#">Find out more about our Privacy Policy</NavLink>
+                    <h3 className="ms-2"><i className="fas fa-user-secret ms-2"></i> Privacy policy</h3>
+                    <NavLink to="#" className="ms-2">Find out more about our Privacy Policy</NavLink>
                    
                 </div>
             </div>
-            <small className="d-flex justify-content-center ">© All rights reserved JM English 2020</small>
+            <small className="d-flex justify-content-center ms-2">© All rights reserved JM English 2020</small>
         </div>
     );
 };
